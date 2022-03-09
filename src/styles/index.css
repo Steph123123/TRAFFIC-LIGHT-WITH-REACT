@@ -4,26 +4,36 @@ html {
     background-color: rgb(218, 212, 160);
 }
 
+#app {
+    background-color: rgb(218, 212, 160);
+    width: auto;
+    text-align: center;
+
+}
 
 .header {
     background-color: rgb(63, 180, 155);
     height: 10rem;
     text-align: center;
-    font-size: 2rem;
-    width: 50rem;
-    margin-left: 31rem;
     border-radius: 1rem;
-
 }
+
+h1{
+    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .traffic {
     background-color: rgb(104, 109, 119);
     height: 30rem;
     width: 14rem;
     margin-top: 1rem;
-    margin-left: 50rem;
     border-radius: 2rem;
     border-style: solid;
     border-width: 1rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 3rem;
 }
 .red {
     background-color: rgb(190, 54, 54);
@@ -31,8 +41,10 @@ html {
     border-radius: 10rem;
     width: 7rem;
     margin-top: 2.5rem;
-    margin-left: 3.7rem;
+    margin-left: 2rem;
     border-style: solid;
+    text-align: center;
+    align-items: center;
 }
 .yellow {
     background-color: rgb(212, 212, 48);
@@ -40,8 +52,9 @@ html {
     border-radius: 10rem;
     width: 7rem;
     margin-top: 2rem;
-    margin-left: 3.7rem;
+    margin-left: 2rem;
     border-style: solid;
+    text-align: center;
 }
 .green {
     background-color: rgb(64, 194, 64);
@@ -49,8 +62,9 @@ html {
     border-radius: 10rem;
     width: 7rem;
     margin-top: 2rem;
-    margin-left: 3.7rem;
+    margin-left: 2rem;
     border-style: solid;
+    text-align: center;
 }
 .footer {
     text-align: center;
@@ -64,3 +78,8 @@ html {
     margin-top: 2rem;
 
 }
+
+.brillo {
+    box-shadow: 0 0 1rem #fff, 0 0 2rem #fff, 0 0 4rem #ffffff, 0 0 30px
+}
+

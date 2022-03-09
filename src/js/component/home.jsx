@@ -5,16 +5,19 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = () => {
+	const selectedcolor
 	return (
-		<div>
-			<div class="header">
-				<h1>Welcome to Steph`s Trafficlight</h1>
+		<div className="containercito">
+			<div className="header">
+				<h1>Welcome to Steph`s Traffic Light</h1>
 			</div>
-			<div class="traffic">
-				<div class="container">
-					<div class="red"></div>
-					<div class="yellow"></div>
-					<div class="green"></div>
+			<div className="contcenter">
+				<div className="traffic">
+					<div class="container">
+						<div className="red brillo"></div>
+						<div className="yellow"></div>
+						<div className="green"></div>
+					</div>
 				</div>
 			</div>
 		</div>
