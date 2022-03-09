@@ -1,12 +1,66 @@
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+html {
+    background-color: rgb(218, 212, 160);
+}
 
-*/
+
+.header {
+    background-color: rgb(63, 180, 155);
+    height: 10rem;
+    text-align: center;
+    font-size: 2rem;
+    width: 50rem;
+    margin-left: 31rem;
+    border-radius: 1rem;
+
+}
+.traffic {
+    background-color: rgb(104, 109, 119);
+    height: 30rem;
+    width: 14rem;
+    margin-top: 1rem;
+    margin-left: 50rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border-width: 1rem;
+}
+.red {
+    background-color: rgb(190, 54, 54);
+    height: 7rem;
+    border-radius: 10rem;
+    width: 7rem;
+    margin-top: 2.5rem;
+    margin-left: 3.7rem;
+    border-style: solid;
+}
+.yellow {
+    background-color: rgb(212, 212, 48);
+    height: 7rem;
+    border-radius: 10rem;
+    width: 7rem;
+    margin-top: 2rem;
+    margin-left: 3.7rem;
+    border-style: solid;
+}
+.green {
+    background-color: rgb(64, 194, 64);
+    height: 7rem;
+    border-radius: 10rem;
+    width: 7rem;
+    margin-top: 2rem;
+    margin-left: 3.7rem;
+    border-style: solid;
+}
+.footer {
+    text-align: center;
+    font-size: 2rem;
+    background-color: indianred;
+    width: 15rem;
+    
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 50rem;
+    margin-top: 2rem;
+
+}

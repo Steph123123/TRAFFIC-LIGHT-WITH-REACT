@@ -7,18 +7,16 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
 	return (
 		<div>
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<div class="header">
+				<h1>Welcome to Steph`s Trafficlight</h1>
+			</div>
+			<div class="traffic">
+				<div class="container">
+					<div class="red"></div>
+					<div class="yellow"></div>
+					<div class="green"></div>
+				</div>
+			</div>
 		</div>
 	);
 };
