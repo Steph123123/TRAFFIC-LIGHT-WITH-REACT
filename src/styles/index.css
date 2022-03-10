@@ -79,7 +79,13 @@ h1{
 
 }
 
-.brillo {
+.light {
     box-shadow: 0 0 1rem #fff, 0 0 2rem #fff, 0 0 4rem #ffffff, 0 0 30px
 }
 
+img {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
